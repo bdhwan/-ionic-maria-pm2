@@ -16,6 +16,8 @@ RUN sudo npm install -g cordova@9.0.0
 RUN sudo npm install -g git-upload
 RUN sudo npm install -g @angular/cli@7.3.9
 RUN sudo npm install -g pm2
+RUN sudo npm i -g cordova-res@0.3.0 --unsafe-perm
+
 RUN cordova telemetry on
 RUN sudo apt-get install -y software-properties-common 
 RUN sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8

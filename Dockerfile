@@ -16,7 +16,7 @@ RUN sudo npm install -g cordova@9.0.0
 RUN sudo npm install -g git-upload
 RUN sudo npm install -g @angular/cli@8.0.6
 RUN sudo npm install -g pm2
-RUN sudo npm i -g cordova-res@0.3.0 --unsafe-perm
+RUN sudo npm i -g cordova-res@0.5.1 --unsafe-perm
 
 RUN cordova telemetry on
 RUN sudo apt-get install -y software-properties-common 

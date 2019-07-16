@@ -11,10 +11,10 @@ RUN sudo apt-get install -y gnupg
 RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 RUN sudo apt-get install -y nodejs
 RUN sudo npm install -g npm@6.9.0
-RUN sudo npm install -g ionic@4.12.0
+RUN sudo npm install -g ionic@5.2.1
 RUN sudo npm install -g cordova@9.0.0
 RUN sudo npm install -g git-upload
-RUN sudo npm install -g @angular/cli@7.3.9
+RUN sudo npm install -g @angular/cli@8.0.6
 RUN sudo npm install -g pm2
 RUN sudo npm i -g cordova-res@0.3.0 --unsafe-perm
 
